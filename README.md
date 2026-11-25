@@ -1,1 +1,1 @@
-# git-task-ai
+# AI Training Week 1
