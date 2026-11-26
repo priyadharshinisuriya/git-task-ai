@@ -16,3 +16,10 @@ IBM HR Analytics Employee Attrition & Performance (Kaggle): 1,470 rows, 35 colum
 ## Project Structure
 - `data/` - raw CSV file
 - `analysis.ipynb` - first data summary and questions
+
+## How to run
+1. Install Python 3.10 or newer.
+2. Install the libraries: `pip install -r requirements.txt`
+3. Open `data-cleaning.ipynb`, then `visualisations.ipynb`, and choose Run All.
+4. Charts are saved to `reports/figures/`.
+5. Export the report: `python -m jupyter nbconvert --to html visualisations.ipynb`
